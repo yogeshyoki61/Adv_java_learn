@@ -12,6 +12,8 @@ public class SQLint {
 		try {
 			Class.forName("org.postgresql.Driver");
 			String url="jdbc:postgresql://localhost:5432/learning_adv_java?user=postgres&password=root";
+			//external databse url access key
+			//"jdbc:postgresql://dpg-d8el6pe8bjmc73b7ut80-a.oregon-postgres.render.com/adv_java_learn?user=adv_java_learn_user&password=itYDQB8HeCtWzXK0xvMoEanGUFpb1lGE"
 			Connection connection=DriverManager.getConnection(url);
 			Scanner sc =new Scanner(System.in);
 			System.out.println("enter the username:");
